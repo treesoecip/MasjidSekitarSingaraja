@@ -13,32 +13,32 @@ export default class App extends Component {
       longitudeDelta: 0.8421,
     },
     markers : [
-      {
+    {
         key:1,
         latlng: {
-          latitude:-8.1126499,
-          longitude: 115.0835376
+          latitude:-8.1306761,
+          longitude: 115.1945678
         },
-        title: 'Kampus Bawah',
-        subtitle: 'Jl. Ahmad Yani No. 67, Kaliuntu, Banyuasri, Buleleng, Kaliuntu, Kec. Buleleng, Kabupaten Buleleng, Bali 81116'
+        title: 'Desa Tamblang',
+        subtitle: 'Tamblang, Kubutambahan, Kabupaten Buleleng, Bali'
       },
       {
         key:2,
         latlng: {
-          latitude:-8.1122168,
-          longitude: 115.0828414
+          latitude:-8.181527,
+          longitude:115.1816262
         },
-        title: 'Kampus Tengah',
-        subtitle: 'Banjar Tegal, Kec. Buleleng, Kabupaten Buleleng, Bali 81116'
+        title: 'Desa Pakisan',
+        subtitle: 'Pakisan, Kubutambahan, Kabupaten Buleleng, Bali'
       },
       {
         key:3,
         latlng: {
-          latitude:-8.1333874,
-          longitude: 115.1255695
+          latitude:-8.1406266,
+          longitude: 115.1886838
         },
-        title: 'Kampus Jineng Dalem',
-        subtitle: 'Jinengdalem, Kec. Buleleng, Kabupaten Buleleng, Bali 81119'
+        title: 'Desa Bontihing',
+        subtitle: 'Bontihing, Kubutambahan, Kabupaten Buleleng, Bali'
       },
    ]
   };
@@ -48,7 +48,7 @@ export default class App extends Component {
       <View style={styles.contMain}>
         <View style={styles.contHeader}>
             <Text style={styles.textHeader}>
-              Peta Universitas Pendidikan Ganesha
+              Desa yang terdapat di Kec Kubutambahan
             </Text>
         </View>
         <View style={styles.contMaps}>
@@ -67,7 +67,7 @@ export default class App extends Component {
               </MapView>
         </View>
         <View style={styles.contFooter}>
-           <Text style={styles.textFooter}> ig: @migranwidiantara</Text>
+           <Text style={styles.textFooter}>Instagam : @Arthawan</Text>
         </View>
       </View>
     );
